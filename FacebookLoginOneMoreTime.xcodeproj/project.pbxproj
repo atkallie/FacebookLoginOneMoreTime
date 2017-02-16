@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA2643DC1E5563EC006B6EDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2643DB1E5563EC006B6EDB /* AppDelegate.swift */; };
+		BA2643DE1E5563EC006B6EDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2643DD1E5563EC006B6EDB /* ViewController.swift */; };
+		BA2643E11E5563EC006B6EDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2643DF1E5563EC006B6EDB /* Main.storyboard */; };
+		BA2643E41E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA2643E21E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodeld */; };
+		BA2643E61E5563EC006B6EDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA2643E51E5563EC006B6EDB /* Assets.xcassets */; };
+		BA2643E91E5563EC006B6EDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA2643E71E5563EC006B6EDB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA2643D81E5563EC006B6EDB /* FacebookLoginOneMoreTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacebookLoginOneMoreTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA2643DB1E5563EC006B6EDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA2643DD1E5563EC006B6EDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA2643E01E5563EC006B6EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA2643E31E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FacebookLoginOneMoreTime.xcdatamodel; sourceTree = "<group>"; };
+		BA2643E51E5563EC006B6EDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA2643E81E5563EC006B6EDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA2643EA1E5563EC006B6EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA2643D51E5563EC006B6EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2643CF1E5563EC006B6EDB = {
+			isa = PBXGroup;
+			children = (
+				BA2643DA1E5563EC006B6EDB /* FacebookLoginOneMoreTime */,
+				BA2643D91E5563EC006B6EDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA2643D91E5563EC006B6EDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA2643D81E5563EC006B6EDB /* FacebookLoginOneMoreTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA2643DA1E5563EC006B6EDB /* FacebookLoginOneMoreTime */ = {
+			isa = PBXGroup;
+			children = (
+				BA2643DB1E5563EC006B6EDB /* AppDelegate.swift */,
+				BA2643DD1E5563EC006B6EDB /* ViewController.swift */,
+				BA2643DF1E5563EC006B6EDB /* Main.storyboard */,
+				BA2643E51E5563EC006B6EDB /* Assets.xcassets */,
+				BA2643E71E5563EC006B6EDB /* LaunchScreen.storyboard */,
+				BA2643EA1E5563EC006B6EDB /* Info.plist */,
+				BA2643E21E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodeld */,
+			);
+			path = FacebookLoginOneMoreTime;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA2643D71E5563EC006B6EDB /* FacebookLoginOneMoreTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA2643ED1E5563EC006B6EDB /* Build configuration list for PBXNativeTarget "FacebookLoginOneMoreTime" */;
+			buildPhases = (
+				BA2643D41E5563EC006B6EDB /* Sources */,
+				BA2643D51E5563EC006B6EDB /* Frameworks */,
+				BA2643D61E5563EC006B6EDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacebookLoginOneMoreTime;
+			productName = FacebookLoginOneMoreTime;
+			productReference = BA2643D81E5563EC006B6EDB /* FacebookLoginOneMoreTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA2643D01E5563EC006B6EDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kalikans;
+				TargetAttributes = {
+					BA2643D71E5563EC006B6EDB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QNU97MJ9RV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BA2643D31E5563EC006B6EDB /* Build configuration list for PBXProject "FacebookLoginOneMoreTime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA2643CF1E5563EC006B6EDB;
+			productRefGroup = BA2643D91E5563EC006B6EDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA2643D71E5563EC006B6EDB /* FacebookLoginOneMoreTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA2643D61E5563EC006B6EDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2643E91E5563EC006B6EDB /* LaunchScreen.storyboard in Resources */,
+				BA2643E61E5563EC006B6EDB /* Assets.xcassets in Resources */,
+				BA2643E11E5563EC006B6EDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA2643D41E5563EC006B6EDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2643DE1E5563EC006B6EDB /* ViewController.swift in Sources */,
+				BA2643E41E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodeld in Sources */,
+				BA2643DC1E5563EC006B6EDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BA2643DF1E5563EC006B6EDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2643E01E5563EC006B6EDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA2643E71E5563EC006B6EDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA2643E81E5563EC006B6EDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA2643EB1E5563EC006B6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA2643EC1E5563EC006B6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA2643EE1E5563EC006B6EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNU97MJ9RV;
+				INFOPLIST_FILE = FacebookLoginOneMoreTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalikans.FacebookLoginOneMoreTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA2643EF1E5563EC006B6EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QNU97MJ9RV;
+				INFOPLIST_FILE = FacebookLoginOneMoreTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kalikans.FacebookLoginOneMoreTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA2643D31E5563EC006B6EDB /* Build configuration list for PBXProject "FacebookLoginOneMoreTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2643EB1E5563EC006B6EDB /* Debug */,
+				BA2643EC1E5563EC006B6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA2643ED1E5563EC006B6EDB /* Build configuration list for PBXNativeTarget "FacebookLoginOneMoreTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA2643EE1E5563EC006B6EDB /* Debug */,
+				BA2643EF1E5563EC006B6EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA2643E21E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA2643E31E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodel */,
+			);
+			currentVersion = BA2643E31E5563EC006B6EDB /* FacebookLoginOneMoreTime.xcdatamodel */;
+			path = FacebookLoginOneMoreTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA2643D01E5563EC006B6EDB /* Project object */;
+}
